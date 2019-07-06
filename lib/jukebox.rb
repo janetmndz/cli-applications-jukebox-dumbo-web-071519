@@ -11,7 +11,9 @@ def play(songs)
   if songs[song_request.to_i + 1]
     p songs[song_request.to_i + 1]
   elsif song.include? (song_request)
-    p song.find
+    p song_request
+  else
+    
   end 
 end
 
