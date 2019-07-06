@@ -37,4 +37,7 @@ end
 
 def exit_jukebox
   p "Goodbye"
-end 
+end
+
+def run
+end
