@@ -7,7 +7,7 @@ def help
 end
 
 def play(songs)
-  song_number = gets.chomp.to_i
+  song_request = gets.chomp #this will be a title or a 
   puts songs[song_number+1]
 end
 
