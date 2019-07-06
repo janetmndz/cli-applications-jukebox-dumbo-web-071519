@@ -23,6 +23,6 @@ def list(songs)
   }
 end 
 
-def exit
+def exit_jukebox
   p "Goodbye"
 end 
