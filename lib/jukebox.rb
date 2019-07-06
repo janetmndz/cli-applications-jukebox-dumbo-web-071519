@@ -9,8 +9,8 @@ end
 def play(songs)
   song_request = gets.chomp #this will be a title or a number
   
-  if songs.include?("#{song_request}")
-    p songs
+  if songs.include?(song_request)
+    p song_request
   elsif songs[(song_request.to_i - 1)]
     p song_request
     p "this is a number"
