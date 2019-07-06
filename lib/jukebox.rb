@@ -11,5 +11,5 @@ def play
 end
 
 def list(songs)
-
+  puts songs
 end
