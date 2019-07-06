@@ -9,3 +9,7 @@ end
 def play
   
 end
+
+def list(songs)
+
+end
