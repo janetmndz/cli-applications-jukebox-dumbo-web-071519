@@ -18,5 +18,7 @@ def play(songs)
 end
 
 def list(songs)
-  puts songs
+  songs.each{|title|
+    p title
+  }
 end 
