@@ -49,6 +49,7 @@ def run(songs)
     when "help"
       list(songs)
     when "play"
+      p "Please enter a song name or number:"
       play(songs)
     when "list"
       list(songs)  
