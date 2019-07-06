@@ -45,7 +45,13 @@ def run(songs)
   user_input = gets.chomp
   playing_jukebox = true
   while playing_jukebox
-    case user_input 
+    case user_input
+    when "help"
+      list(songs)
+    when "play"
+      play(songs)
+    when "list"
+      list(songs)  
     when "exit"
       playing_jukebox = false
       exit_jukebox
