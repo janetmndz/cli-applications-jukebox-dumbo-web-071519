@@ -18,7 +18,7 @@ def play(songs)
 end
 
 def list(songs)
-  songs.each{|title|
-    p title
+  songs.map{|title, index|
+    p "#{index}. #{title}"
   }
 end 
