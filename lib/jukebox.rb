@@ -22,3 +22,6 @@ def list(songs)
     p "#{index+1}. #{title}"
   }
 end 
+
+def exit
+end 
