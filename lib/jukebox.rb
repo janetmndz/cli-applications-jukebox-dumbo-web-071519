@@ -8,6 +8,7 @@ end
 
 def play(songs)
   song_request = gets.chomp #this will be a title or a number
+  p song_request
   if songs[song_request.to_i]
     p songs[song_request.to_i]
   elsif song.include? (song_request)
