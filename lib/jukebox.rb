@@ -19,6 +19,6 @@ end
 
 def list(songs)
   songs.map.with_index {|title, index|
-    p "#{index}. #{title}"
+    p "#{index+1}. #{title}"
   }
 end 
