@@ -11,9 +11,8 @@ def play(songs)
   
   if songs.include?(song_request)
     p song_request
-  elsif songs[(song_request.to_i - 1)]
-    p song_request
-    p "this is a number"
+  elsif song_request.to_i.to_s == song_request && songs[(song_request.to_i - 1)]
+    p songs[(song_request.to_i - 1)]
   else
     p "Invalid input, please try again"
   end 
