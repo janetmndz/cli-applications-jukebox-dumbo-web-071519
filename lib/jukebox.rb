@@ -48,10 +48,8 @@ def run(songs)
     case user_input
     when "help"
       list(songs)
-      playing_jukebox = false
     when "play"
       play(songs)
-      playing_jukebox = false
     when "list"
       list(songs)  
     when "exit"
