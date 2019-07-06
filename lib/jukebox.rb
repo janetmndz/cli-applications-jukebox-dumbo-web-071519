@@ -9,11 +9,11 @@ end
 def play(songs)
   song_request = gets.chomp #this will be a title or a number
   
-  if songs[(song_request.to_i - 1)]
-    p songs[(song_request.to_i - 1)]
-  elsif songs.include?("#{song_request}")
-    
-    p songs.include?("#{song_request}")
+  if songs.include?("#{song_request}")
+    p songs
+  elsif songs[(song_request.to_i - 1)]
+    p song_request
+    p "this is a number"
   else
     p "Invalid input, please try again"
   end 
