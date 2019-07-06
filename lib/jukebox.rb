@@ -7,7 +7,7 @@ def help
 end
 
 def play(songs)
-  puts "What "
+  song_number = get.cru
 end
 
 def list(songs)
