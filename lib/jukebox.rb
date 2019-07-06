@@ -6,8 +6,8 @@ def help
   - exit this program"
 end
 
-def play
-  
+def play(songs)
+  puts "What "
 end
 
 def list(songs)
