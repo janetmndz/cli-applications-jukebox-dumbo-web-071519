@@ -13,7 +13,7 @@ def play(songs)
   elsif song.include? (song_request)
     p song_request
   else
-    
+    p "Invalid input, please try again"
   end 
 end
 
