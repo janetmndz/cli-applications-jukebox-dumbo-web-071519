@@ -50,7 +50,7 @@ def run(songs)
       list(songs)
     when "play"
       p "Please enter a song name or number:"
-      play(songs)
+      p "Playing #{play(songs)}"
     when "list"
       list(songs)  
     when "exit"
