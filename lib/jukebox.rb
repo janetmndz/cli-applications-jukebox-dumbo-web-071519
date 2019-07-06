@@ -45,14 +45,13 @@ def run(songs)
   user_input = gets.chomp
   playing_jukebox = true
   while playing_jukebox
-  case user_input 
-  when "exit"
-    playing_jukebox = false
-    exit_jukebox
-  else
-    p "Invalid command"
-  end
-  
+    case user_input 
+    when "exit"
+      playing_jukebox = false
+      exit_jukebox
+    else
+      p "Invalid command"
+    end
   end
   
 end
