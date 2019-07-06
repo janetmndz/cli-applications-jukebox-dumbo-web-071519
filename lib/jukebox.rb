@@ -7,7 +7,8 @@ def help
 end
 
 def play(songs)
-  song_number = get.cru
+  song_number = gets.chomp
+  puts songs[song_number+1]
 end
 
 def list(songs)
